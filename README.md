@@ -16,6 +16,31 @@ It includes **native USB file transfer**, an **SD card slot**, **Li-Po battery p
 
 ---
 
+## 🔧 Feature Description
+
+This device combines multiple subsystems to create a compact, battery-powered **ePUB reader** with USB file transfer and SD storage.  
+Below is an overview of the main components and their roles:
+
+- **ESP32-S3-WROOM-1** → The core microcontroller, handling ePUB processing, display control, and USB/SD communication.  
+- **AP61100Z6-7** → High-efficiency step-down DC/DC regulator, providing stable 3.3V power to the system.  
+- **BQ24040DSQR** → Li-Po battery charger and power-path management IC.  
+- **JST PH 2.0 Connector** → Battery input for the Li-Po cell.  
+- **USB_C_Receptacle_USB2.0_16P** → Main USB interface for file transfer, charging, and firmware upload.  
+- **USB to TTL header (6-pin)** → Debug/programming interface for ESP32.  
+- **AP22804AW5** → Power distribution switch, protecting USB and system power paths.  
+- **USBLC6-2SC6** → ESD protection for USB data lines.  
+- **SI1308EDL** → P-channel MOSFET for load switching/power management.  
+- **74LVC125APW** → Quad buffer/line driver for logic level shifting and signal integrity.  
+- **24-pin Display Connector** → E-Ink display interface (data, control, power).  
+- **SIQ-02FVS3 Rotary Encoder** → User input for page turning and navigation.  
+- **BMA400** → Low-power 3-axis accelerometer (e.g., auto screen rotation, device orientation).  
+- **Micro SD Card slot (Det1)** → External storage for ePUB files.  
+
+Each component contributes to a **modular and power-efficient design** that balances portability, usability, and robustness.
+
+
+---
+
 ## 📂 Repository Contents
 - `/docs` → PDF schematic, PCB outline, and component placement  
 - `/firmware` → ESP32 firmware code  
