@@ -1,4 +1,4 @@
-# 📖 ePUB Reader with E-Ink Display
+# 📖 ePUB Reader with E-Ink Display - **AM-EPUBR-R1**
 
 A **compact handheld device** designed for reading books in **ePUB format**, powered by an **ESP32** and featuring an **e-ink display** for a paper-like reading experience.  
 It includes **native USB file transfer**, an **SD card slot**, **Li-Po battery power**, and a **rotary encoder** for smooth navigation.  
