@@ -26,8 +26,7 @@ It includes **native USB file transfer**, an **SD card slot**, **Li-Po battery p
 
 ## 🖼️ Project Gallery
 
-### 📱 Device Concept design and Render
-![ePUB reader 3D](images/ePUB%20reader%203D.jpg)
+### 📱 Device Concept Render
 ![ePUB reader 3D](images/ePUB%20reader%203D%20render.PNG)
 
 ### 📐 Schematic
