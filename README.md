@@ -19,7 +19,7 @@ It includes **native USB file transfer**, an **SD card slot**, **Li-Po battery p
 ## 📂 Repository Contents
 - `/docs` → PDF schematic, PCB outline, and component placement  
 - `/firmware` → ESP32 firmware code  
-- `/3d` → Fusion 360 exports (STEP/STL, optional)  
+- `/3d` → Fusion 360 and KiCAD exports  
 - `/images` → Project renders, schematics, and board previews  
 
 ---
