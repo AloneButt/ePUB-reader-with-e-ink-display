@@ -1,0 +1,32 @@
+# OS system files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Build output (ESP-IDF / Arduino / PlatformIO)
+build/
+cmake-build*/
+*.elf
+*.bin
+*.hex
+*.map
+*.eep
+
+# KiCAD backups (if you ever add source files later)
+*.bak
+*.bck
+*-backups/
+*.sch-bak
+*.kicad_prl
+*.kicad_sch-bak
+
+# Fusion 360 exports (keep only what you want)
+*.f3d
+*.autosave
+*.backup1
+
+# Logs
+*.log
