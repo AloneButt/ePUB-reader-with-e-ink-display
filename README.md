@@ -69,6 +69,11 @@ Each component contributes to a **modular and power-efficient design** that bala
 
 ---
 
+## 🧱 Hardware block diagram
+![ePUB reader with e-ink display block diagram](docs/ePUB%20reader%20with%20e-ink%20display%20block%20diagram.png)
+
+---
+
 ## 🚀 How to Use
 1. Open `/docs` to view the circuit schematic, PCB outline, and component placement.  
 2. Replicate the PCB design using the provided documentation.  
